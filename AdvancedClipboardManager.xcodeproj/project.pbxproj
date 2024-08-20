@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9BBBF7F2C74E80C0089A021 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9BBBF7E2C74E80C0089A021 /* Quartz.framework */; };
+		E9BBBF812C74E8180089A021 /* QuickLookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9BBBF802C74E8180089A021 /* QuickLookUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9BBBF592C74A3AE0089A021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9BBBF3A2C74A3AC0089A021 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9BBBF412C74A3AC0089A021;
+			remoteInfo = AdvancedClipboardManager;
+		};
+		E9BBBF632C74A3AE0089A021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9BBBF3A2C74A3AC0089A021 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9BBBF412C74A3AC0089A021;
+			remoteInfo = AdvancedClipboardManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9BBBF422C74A3AC0089A021 /* AdvancedClipboardManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedClipboardManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9BBBF582C74A3AE0089A021 /* AdvancedClipboardManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvancedClipboardManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9BBBF622C74A3AE0089A021 /* AdvancedClipboardManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvancedClipboardManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9BBBF7E2C74E80C0089A021 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		E9BBBF802C74E8180089A021 /* QuickLookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLookUI.framework; path = System/Library/Frameworks/QuickLookUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E9BBBF442C74A3AC0089A021 /* AdvancedClipboardManager */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AdvancedClipboardManager;
+			sourceTree = "<group>";
+		};
+		E9BBBF5B2C74A3AE0089A021 /* AdvancedClipboardManagerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AdvancedClipboardManagerTests;
+			sourceTree = "<group>";
+		};
+		E9BBBF652C74A3AE0089A021 /* AdvancedClipboardManagerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AdvancedClipboardManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9BBBF3F2C74A3AC0089A021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9BBBF7F2C74E80C0089A021 /* Quartz.framework in Frameworks */,
+				E9BBBF812C74E8180089A021 /* QuickLookUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9BBBF552C74A3AE0089A021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9BBBF5F2C74A3AE0089A021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9BBBF392C74A3AC0089A021 = {
+			isa = PBXGroup;
+			children = (
+				E9BBBF442C74A3AC0089A021 /* AdvancedClipboardManager */,
+				E9BBBF5B2C74A3AE0089A021 /* AdvancedClipboardManagerTests */,
+				E9BBBF652C74A3AE0089A021 /* AdvancedClipboardManagerUITests */,
+				E9BBBF7D2C74E80B0089A021 /* Frameworks */,
+				E9BBBF432C74A3AC0089A021 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9BBBF432C74A3AC0089A021 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9BBBF422C74A3AC0089A021 /* AdvancedClipboardManager.app */,
+				E9BBBF582C74A3AE0089A021 /* AdvancedClipboardManagerTests.xctest */,
+				E9BBBF622C74A3AE0089A021 /* AdvancedClipboardManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9BBBF7D2C74E80B0089A021 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9BBBF802C74E8180089A021 /* QuickLookUI.framework */,
+				E9BBBF7E2C74E80C0089A021 /* Quartz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9BBBF412C74A3AC0089A021 /* AdvancedClipboardManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9BBBF6C2C74A3AE0089A021 /* Build configuration list for PBXNativeTarget "AdvancedClipboardManager" */;
+			buildPhases = (
+				E9BBBF3E2C74A3AC0089A021 /* Sources */,
+				E9BBBF3F2C74A3AC0089A021 /* Frameworks */,
+				E9BBBF402C74A3AC0089A021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E9BBBF442C74A3AC0089A021 /* AdvancedClipboardManager */,
+			);
+			name = AdvancedClipboardManager;
+			packageProductDependencies = (
+			);
+			productName = AdvancedClipboardManager;
+			productReference = E9BBBF422C74A3AC0089A021 /* AdvancedClipboardManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9BBBF572C74A3AE0089A021 /* AdvancedClipboardManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9BBBF6F2C74A3AE0089A021 /* Build configuration list for PBXNativeTarget "AdvancedClipboardManagerTests" */;
+			buildPhases = (
+				E9BBBF542C74A3AE0089A021 /* Sources */,
+				E9BBBF552C74A3AE0089A021 /* Frameworks */,
+				E9BBBF562C74A3AE0089A021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9BBBF5A2C74A3AE0089A021 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E9BBBF5B2C74A3AE0089A021 /* AdvancedClipboardManagerTests */,
+			);
+			name = AdvancedClipboardManagerTests;
+			packageProductDependencies = (
+			);
+			productName = AdvancedClipboardManagerTests;
+			productReference = E9BBBF582C74A3AE0089A021 /* AdvancedClipboardManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9BBBF612C74A3AE0089A021 /* AdvancedClipboardManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9BBBF722C74A3AE0089A021 /* Build configuration list for PBXNativeTarget "AdvancedClipboardManagerUITests" */;
+			buildPhases = (
+				E9BBBF5E2C74A3AE0089A021 /* Sources */,
+				E9BBBF5F2C74A3AE0089A021 /* Frameworks */,
+				E9BBBF602C74A3AE0089A021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9BBBF642C74A3AE0089A021 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E9BBBF652C74A3AE0089A021 /* AdvancedClipboardManagerUITests */,
+			);
+			name = AdvancedClipboardManagerUITests;
+			packageProductDependencies = (
+			);
+			productName = AdvancedClipboardManagerUITests;
+			productReference = E9BBBF622C74A3AE0089A021 /* AdvancedClipboardManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9BBBF3A2C74A3AC0089A021 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					E9BBBF412C74A3AC0089A021 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					E9BBBF572C74A3AE0089A021 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = E9BBBF412C74A3AC0089A021;
+					};
+					E9BBBF612C74A3AE0089A021 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = E9BBBF412C74A3AC0089A021;
+					};
+				};
+			};
+			buildConfigurationList = E9BBBF3D2C74A3AC0089A021 /* Build configuration list for PBXProject "AdvancedClipboardManager" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9BBBF392C74A3AC0089A021;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E9BBBF432C74A3AC0089A021 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9BBBF412C74A3AC0089A021 /* AdvancedClipboardManager */,
+				E9BBBF572C74A3AE0089A021 /* AdvancedClipboardManagerTests */,
+				E9BBBF612C74A3AE0089A021 /* AdvancedClipboardManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9BBBF402C74A3AC0089A021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9BBBF562C74A3AE0089A021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9BBBF602C74A3AE0089A021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9BBBF3E2C74A3AC0089A021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9BBBF542C74A3AE0089A021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9BBBF5E2C74A3AE0089A021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9BBBF5A2C74A3AE0089A021 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9BBBF412C74A3AC0089A021 /* AdvancedClipboardManager */;
+			targetProxy = E9BBBF592C74A3AE0089A021 /* PBXContainerItemProxy */;
+		};
+		E9BBBF642C74A3AE0089A021 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9BBBF412C74A3AC0089A021 /* AdvancedClipboardManager */;
+			targetProxy = E9BBBF632C74A3AE0089A021 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E9BBBF6A2C74A3AE0089A021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9BBBF6B2C74A3AE0089A021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E9BBBF6D2C74A3AE0089A021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = AdvancedClipboardManager/AdvancedClipboardManager.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AdvancedClipboardManager/Preview Content\"";
+				DEVELOPMENT_TEAM = GC7YS6AW7T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ClipBuddy;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lashpixel.AdvancedClipboardManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E9BBBF6E2C74A3AE0089A021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = AdvancedClipboardManager/AdvancedClipboardManager.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AdvancedClipboardManager/Preview Content\"";
+				DEVELOPMENT_TEAM = GC7YS6AW7T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ClipBuddy;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lashpixel.AdvancedClipboardManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E9BBBF702C74A3AE0089A021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GC7YS6AW7T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lashpixel.AdvancedClipboardManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvancedClipboardManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AdvancedClipboardManager";
+			};
+			name = Debug;
+		};
+		E9BBBF712C74A3AE0089A021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GC7YS6AW7T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lashpixel.AdvancedClipboardManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvancedClipboardManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AdvancedClipboardManager";
+			};
+			name = Release;
+		};
+		E9BBBF732C74A3AE0089A021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GC7YS6AW7T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lashpixel.AdvancedClipboardManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AdvancedClipboardManager;
+			};
+			name = Debug;
+		};
+		E9BBBF742C74A3AE0089A021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GC7YS6AW7T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lashpixel.AdvancedClipboardManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AdvancedClipboardManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9BBBF3D2C74A3AC0089A021 /* Build configuration list for PBXProject "AdvancedClipboardManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9BBBF6A2C74A3AE0089A021 /* Debug */,
+				E9BBBF6B2C74A3AE0089A021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9BBBF6C2C74A3AE0089A021 /* Build configuration list for PBXNativeTarget "AdvancedClipboardManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9BBBF6D2C74A3AE0089A021 /* Debug */,
+				E9BBBF6E2C74A3AE0089A021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9BBBF6F2C74A3AE0089A021 /* Build configuration list for PBXNativeTarget "AdvancedClipboardManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9BBBF702C74A3AE0089A021 /* Debug */,
+				E9BBBF712C74A3AE0089A021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9BBBF722C74A3AE0089A021 /* Build configuration list for PBXNativeTarget "AdvancedClipboardManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9BBBF732C74A3AE0089A021 /* Debug */,
+				E9BBBF742C74A3AE0089A021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9BBBF3A2C74A3AC0089A021 /* Project object */;
+}
